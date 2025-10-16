@@ -10,7 +10,7 @@ This is the **Host** application for a Micro Frontend (MFE) architecture using W
 
 ## Live Demo
 
-- Host: [https://mfe-host-yourvercel.vercel.app](https://mfe-host-yourvercel.vercel.app)
+- Host: [https://mfe-host-seven.vercel.app/](https://mfe-host-seven.vercel.app/)
 - Remote1: [https://mfe-remote1.vercel.app](https://mfe-remote1.vercel.app)
 - Remote2: [https://mfe-remote2.vercel.app](https://mfe-remote2.vercel.app)
 
