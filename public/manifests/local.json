@@ -1,0 +1,12 @@
+{
+  "remote1": {
+    "url": "http://localhost:3001/remoteEntry.js",
+    "scope": "remote1",
+    "module": "./UserButton"
+  },
+  "remote2": {
+    "url": "http://localhost:3002/remoteEntry.js",
+    "scope": "remote2",
+    "module": "./OrderLabel"
+  }
+}

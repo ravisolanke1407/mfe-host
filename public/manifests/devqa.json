@@ -1,0 +1,12 @@
+{
+  "remote1": {
+    "url": "https://qa-mf1.company.com/remoteEntry.js",
+    "scope": "remote1",
+    "module": "./UserButton"
+  },
+  "remote2": {
+    "url": "https://qa-mf2.company.com/remoteEntry.js",
+    "scope": "remote2",
+    "module": "./OrderLabel"
+  }
+}
