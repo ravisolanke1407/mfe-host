@@ -14,6 +14,12 @@ This is the **Host** application for a Micro Frontend (MFE) architecture using W
 - Remote1: [https://mfe-remote1.vercel.app](https://mfe-remote1.vercel.app)
 - Remote2: [https://mfe-remote2.vercel.app](https://mfe-remote2.vercel.app)
 
+## Github Repository
+
+- Host: [https://github.com/ravisolanke1407/mfe-host](https://github.com/ravisolanke1407/mfe-host)
+- Remote1: [https://github.com/ravisolanke1407/mfe-remote1](https://github.com/ravisolanke1407/mfe-remote1)
+- Remote2: [https://github.com/ravisolanke1407/mfe-remote2](https://github.com/ravisolanke1407/mfe-remote2)
+
 ## Features
 
 - Loads remote React components on demand
