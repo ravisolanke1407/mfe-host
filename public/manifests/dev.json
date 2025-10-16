@@ -1,11 +1,11 @@
 {
   "remote1": {
-    "url": "https://dev-mf1.company.com/remoteEntry.js",
+    "url": "https://mfe-remote1.vercel.app/remoteEntry.js",
     "scope": "remote1",
     "module": "./UserButton"
   },
   "remote2": {
-    "url": "https://dev-mf2.company.com/remoteEntry.js",
+    "url": "https://mfe-remote2.vercel.app/remoteEntry.js",
     "scope": "remote2",
     "module": "./OrderLabel"
   }
