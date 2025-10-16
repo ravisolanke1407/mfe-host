@@ -1,6 +1,7 @@
 import path from "path";
 import dotenv from "dotenv";
 import HtmlWebpackPlugin from "html-webpack-plugin";
+import CopyWebpackPlugin from "copy-webpack-plugin";
 import webpack from "webpack";
 import { fileURLToPath } from "url";
 import { dirname } from "path";
@@ -63,6 +64,14 @@ export default (env = {}) => {
           },
         },
       }),
+      new CopyWebpackPlugin({
+        patterns: [
+          {
+            from: path.resolve(__dirname, "public/manifests"),
+            to: path.resolve(__dirname, "dist/manifests"),
+          },
+        ],
+      }),
       new HtmlWebpackPlugin({
         template: "./public/index.html",
         scriptLoading: "module", // ⚠️ needed for React 19 ESM
@@ -70,7 +79,7 @@ export default (env = {}) => {
       new DefinePlugin({
         "process.env.ENV_NAME": JSON.stringify(process.env.ENV_NAME),
         "process.env.REMOTE_MANIFEST": JSON.stringify(
-          process.env.REMOTE_MANIFEST || "local.json"
+          process.env.REMOTE_MANIFEST || "dev.json"
         ),
       }),
     ],
